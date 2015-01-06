@@ -1,0 +1,206 @@
+\hypertarget{struct_date}{\section{Date Struct Reference}
+\label{struct_date}\index{Date@{Date}}
+}
+
+
+{\ttfamily \#include $<$app\-Store.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_date_a4e59ed4ba66eec61c27460c5d09fa1bd}{Date} ()
+\begin{DoxyCompactList}\small\item\em Creates a date class object. \end{DoxyCompactList}\item 
+\hyperlink{struct_date_a6035b37cfccaf63b33f6c0e95b0099ea}{Date} (int h, int mi, int d, int m, int y)
+\begin{DoxyCompactList}\small\item\em Creates a date class object. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_date_a6ec06696ab11aba7f7b0c3586a13a212}{operator$<$} (\hyperlink{struct_date}{Date} const \&b) const 
+\begin{DoxyCompactList}\small\item\em Operator $<$ overload. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_date_ad3f9054d9708aa97b237ddf88495d70f}{operator$>$} (\hyperlink{struct_date}{Date} const \&b) const 
+\begin{DoxyCompactList}\small\item\em Operator $>$ overload. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_date_af7d714167e08de849d2d04b2246cfcfa}{operator==} (\hyperlink{struct_date}{Date} const \&b) const 
+\begin{DoxyCompactList}\small\item\em Operator == overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{struct_date_a59f93395dbec8ce9945f2ea091250c42}{hour}
+\item 
+int \hyperlink{struct_date_a3bd2b03da68ad8995b56a393a0c4f4a0}{minutes}
+\item 
+int \hyperlink{struct_date_a5b192adcabf2b2871e3f0b76c1ec1601}{day}
+\item 
+int \hyperlink{struct_date_a533843e07c6ac8d19fee9b16f5336ba2}{month}
+\item 
+int \hyperlink{struct_date_a3eeced2ed56bc95d56782b9e738db8ea}{year}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 442 of file app\-Store.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{struct_date_a4e59ed4ba66eec61c27460c5d09fa1bd}{\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\subsubsection[{Date}]{\setlength{\rightskip}{0pt plus 5cm}Date\-::\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{struct_date_a4e59ed4ba66eec61c27460c5d09fa1bd}
+
+
+Creates a date class object. 
+
+
+
+Definition at line 333 of file app\-Store.\-cpp.
+
+\hypertarget{struct_date_a6035b37cfccaf63b33f6c0e95b0099ea}{\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\subsubsection[{Date}]{\setlength{\rightskip}{0pt plus 5cm}Date\-::\-Date (
+\begin{DoxyParamCaption}
+\item[{int}]{h, }
+\item[{int}]{mi, }
+\item[{int}]{d, }
+\item[{int}]{m, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{struct_date_a6035b37cfccaf63b33f6c0e95b0099ea}
+
+
+Creates a date class object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h} & hours \\
+\hline
+{\em mi} & minutes \\
+\hline
+{\em d} & day \\
+\hline
+{\em m} & month \\
+\hline
+{\em y} & year \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 343 of file app\-Store.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{struct_date_a6ec06696ab11aba7f7b0c3586a13a212}{\index{Date@{Date}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Date@{Date}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool Date\-::operator$<$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Date} const \&}]{b}
+\end{DoxyParamCaption}
+) const}}\label{struct_date_a6ec06696ab11aba7f7b0c3586a13a212}
+
+
+Operator $<$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{struct_date}{Date}} & structure\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if $<$ 
+\end{DoxyReturn}
+
+
+Definition at line 351 of file app\-Store.\-cpp.
+
+\hypertarget{struct_date_af7d714167e08de849d2d04b2246cfcfa}{\index{Date@{Date}!operator==@{operator==}}
+\index{operator==@{operator==}!Date@{Date}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Date\-::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Date} const \&}]{b}
+\end{DoxyParamCaption}
+) const}}\label{struct_date_af7d714167e08de849d2d04b2246cfcfa}
+
+
+Operator == overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{struct_date}{Date}} & structure\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if == 
+\end{DoxyReturn}
+
+
+Definition at line 398 of file app\-Store.\-cpp.
+
+\hypertarget{struct_date_ad3f9054d9708aa97b237ddf88495d70f}{\index{Date@{Date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Date@{Date}}
+\subsubsection[{operator$>$}]{\setlength{\rightskip}{0pt plus 5cm}bool Date\-::operator$>$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Date} const \&}]{b}
+\end{DoxyParamCaption}
+) const}}\label{struct_date_ad3f9054d9708aa97b237ddf88495d70f}
+
+
+Operator $>$ overload. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{struct_date}{Date}} & structure\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if $>$ 
+\end{DoxyReturn}
+
+
+Definition at line 374 of file app\-Store.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_date_a5b192adcabf2b2871e3f0b76c1ec1601}{\index{Date@{Date}!day@{day}}
+\index{day@{day}!Date@{Date}}
+\subsubsection[{day}]{\setlength{\rightskip}{0pt plus 5cm}int Date\-::day}}\label{struct_date_a5b192adcabf2b2871e3f0b76c1ec1601}
+
+
+Definition at line 445 of file app\-Store.\-h.
+
+\hypertarget{struct_date_a59f93395dbec8ce9945f2ea091250c42}{\index{Date@{Date}!hour@{hour}}
+\index{hour@{hour}!Date@{Date}}
+\subsubsection[{hour}]{\setlength{\rightskip}{0pt plus 5cm}int Date\-::hour}}\label{struct_date_a59f93395dbec8ce9945f2ea091250c42}
+
+
+Definition at line 443 of file app\-Store.\-h.
+
+\hypertarget{struct_date_a3bd2b03da68ad8995b56a393a0c4f4a0}{\index{Date@{Date}!minutes@{minutes}}
+\index{minutes@{minutes}!Date@{Date}}
+\subsubsection[{minutes}]{\setlength{\rightskip}{0pt plus 5cm}int Date\-::minutes}}\label{struct_date_a3bd2b03da68ad8995b56a393a0c4f4a0}
+
+
+Definition at line 444 of file app\-Store.\-h.
+
+\hypertarget{struct_date_a533843e07c6ac8d19fee9b16f5336ba2}{\index{Date@{Date}!month@{month}}
+\index{month@{month}!Date@{Date}}
+\subsubsection[{month}]{\setlength{\rightskip}{0pt plus 5cm}int Date\-::month}}\label{struct_date_a533843e07c6ac8d19fee9b16f5336ba2}
+
+
+Definition at line 446 of file app\-Store.\-h.
+
+\hypertarget{struct_date_a3eeced2ed56bc95d56782b9e738db8ea}{\index{Date@{Date}!year@{year}}
+\index{year@{year}!Date@{Date}}
+\subsubsection[{year}]{\setlength{\rightskip}{0pt plus 5cm}int Date\-::year}}\label{struct_date_a3eeced2ed56bc95d56782b9e738db8ea}
+
+
+Definition at line 447 of file app\-Store.\-h.
+
+
+
+The documentation for this struct was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{app_store_8h}{app\-Store.\-h}\item 
+src/\hyperlink{app_store_8cpp}{app\-Store.\-cpp}\end{DoxyCompactItemize}

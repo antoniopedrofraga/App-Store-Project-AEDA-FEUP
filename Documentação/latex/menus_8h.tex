@@ -1,0 +1,655 @@
+\hypertarget{menus_8h}{\section{src/menus.h File Reference}
+\label{menus_8h}\index{src/menus.\-h@{src/menus.\-h}}
+}
+{\ttfamily \#include \char`\"{}app\-Store.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$fstream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+Include dependency graph for menus.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{menus_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{menus_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{menus_8h_aa585ae7d8f5362da92ce8e632e96c1ac}{cs} ()
+\begin{DoxyCompactList}\small\item\em clears screen \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a7167f5c196fc5e167bfabde1a730e81d}{pause} ()
+\begin{DoxyCompactList}\small\item\em pauses the program \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a1a6a7739e9cc01ba888b57d1f9457f4c}{Exit} ()
+\begin{DoxyCompactList}\small\item\em Exit function. \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_a00835efb53f4d81f809220267fe4991c}{first\-Screen} ()
+\begin{DoxyCompactList}\small\item\em Shows the first screen. \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_a4f88eaae08853208b5bb525d3e03da9d}{sign\-Up\-Menu} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Controls the sign up menu. \end{DoxyCompactList}\item 
+bool \hyperlink{menus_8h_a44b193a809749f66e7928ef86f50f7d9}{checkusername} (string u, \hyperlink{class_app_store}{App\-Store} \&app)
+\begin{DoxyCompactList}\small\item\em Checks the username. \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_acc8e8a27a849a306e1dbfa836c5a07b4}{Menu} (int a, \hyperlink{class_app_store}{App\-Store} \&appstore)
+\begin{DoxyCompactList}\small\item\em function to redirect to menu type \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_a23a082437ea9566917fc09f1d2ccc7b0}{login\-Menu} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Controls the login menu. \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_a17c7e9490a26e40c5d3c6382728b3e36}{check\-User} (string username, string password, \hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Checks user for the right password. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_app}{App} $>$ \hyperlink{menus_8h_ab397273ffad40b9e8c08bd27138390e8}{read\-Apps} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read Apps info from text file. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_client}{Client} $>$ \hyperlink{menus_8h_abb046e57ad494277538d50511a16553f}{read\-Clients} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read clients info from text file. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_developer}{Developer} $>$ \hyperlink{menus_8h_af9a05ef922cdb113a8fe7898cf62b8b9}{read\-Devs} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read Devs info from text file. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_company}{Company} $>$ \hyperlink{menus_8h_affb2cadd67c8096436d9a8f06279afe3}{read\-Comp} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read Companies info from text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_afcd035b559f35fd9ea1e862a3fd109ea}{read\-Appsto\-Bst} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\item 
+void \hyperlink{menus_8h_ad0841b67a9be8040effd43726dd92267}{write\-Apps\-To\-Bst} (\hyperlink{class_b_s_t}{B\-S\-T}$<$ \hyperlink{class_app_to_bst}{App\-To\-Bst} $>$ app)
+\begin{DoxyCompactList}\small\item\em Function to write Apps info to text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a3b6ebfa15859dd53d6926f1886ad5789}{write\-Apps} (vector$<$ \hyperlink{class_app}{App} $>$ \&v)
+\item 
+void \hyperlink{menus_8h_a9a14a4f6d31bbdb53e01979851e5c2ba}{write\-Clients} (vector$<$ \hyperlink{class_client}{Client} $>$ c)
+\begin{DoxyCompactList}\small\item\em Function to write clients info to text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_aa23062ec4ea8aab93c945f37580c2cbb}{write\-Devs} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to write Devs info to text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_ac3a783d5fc67b458f098d4866be3160d}{write\-Comp} (vector$<$ \hyperlink{class_company}{Company} $>$ vd)
+\begin{DoxyCompactList}\small\item\em Function to write Companies info to text file. \end{DoxyCompactList}\item 
+int \hyperlink{menus_8h_a94b9006ef6c437e3ee9687ac2eeb2f0a}{buy\-Apps} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\item 
+vector$<$ string $>$ \hyperlink{menus_8h_a1843c99b6b486725f2f24de1ace88ca0}{read\-Codes} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read Codes from text file. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_sale}{Sale} $>$ \hyperlink{menus_8h_ae6ced19845f6d11c2269530c97134e6d}{read\-Sales} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function to read Codes from text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a9d0b2bd4c24cec3b5f6c45068afe44b8}{write\-Sales} (vector$<$ \hyperlink{class_sale}{Sale} $>$ vd)
+\begin{DoxyCompactList}\small\item\em Function to write sales to text file. \end{DoxyCompactList}\item 
+float \hyperlink{menus_8h_ab564bbf34f9eacdf62fe5e4bd6fbca9b}{average} (\hyperlink{class_app}{App} $\ast$a, vector$<$ \hyperlink{class_client}{Client} $>$ clients)
+\begin{DoxyCompactList}\small\item\em gets the average of an \hyperlink{class_app}{App}'s classification \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a550ef521ba111e4b2bcd7b151b28d991}{top10menu} (\hyperlink{class_app_store}{App\-Store} apps)
+\begin{DoxyCompactList}\small\item\em Function to show apps from \hyperlink{class_b_s_t}{B\-S\-T}. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a00da6ecf054736e0e2000d32ae1d1d2a}{write\-Vals} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Write Apps waiting for validation info to text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a0dfea7d90f0a83afe03b09acb925ff22}{read\-Vals} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em Function read validations from text file. \end{DoxyCompactList}\item 
+void \hyperlink{menus_8h_a5a0785ff6e3adff536f33fb89b673290}{Admin\-B\-S\-T} (\hyperlink{class_app_store}{App\-Store} \&apps)
+\begin{DoxyCompactList}\small\item\em C\-R\-U\-D Menu for \hyperlink{class_b_s_t}{B\-S\-T}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{menus_8h_a5a0785ff6e3adff536f33fb89b673290}{\index{menus.\-h@{menus.\-h}!Admin\-B\-S\-T@{Admin\-B\-S\-T}}
+\index{Admin\-B\-S\-T@{Admin\-B\-S\-T}!menus.h@{menus.\-h}}
+\subsubsection[{Admin\-B\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}void Admin\-B\-S\-T (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a5a0785ff6e3adff536f33fb89b673290}
+
+
+C\-R\-U\-D Menu for \hyperlink{class_b_s_t}{B\-S\-T}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1254 of file menus.\-cpp.
+
+\hypertarget{menus_8h_ab564bbf34f9eacdf62fe5e4bd6fbca9b}{\index{menus.\-h@{menus.\-h}!average@{average}}
+\index{average@{average}!menus.h@{menus.\-h}}
+\subsubsection[{average}]{\setlength{\rightskip}{0pt plus 5cm}float average (
+\begin{DoxyParamCaption}
+\item[{{\bf App} $\ast$}]{a, }
+\item[{vector$<$ {\bf Client} $>$}]{clients}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_ab564bbf34f9eacdf62fe5e4bd6fbca9b}
+
+
+gets the average of an \hyperlink{class_app}{App}'s classification 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$a} & \hyperlink{class_app}{App} \\
+\hline
+{\em clients} & vector of the clients\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the average classification 
+\end{DoxyReturn}
+
+
+Definition at line 329 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a94b9006ef6c437e3ee9687ac2eeb2f0a}{\index{menus.\-h@{menus.\-h}!buy\-Apps@{buy\-Apps}}
+\index{buy\-Apps@{buy\-Apps}!menus.h@{menus.\-h}}
+\subsubsection[{buy\-Apps}]{\setlength{\rightskip}{0pt plus 5cm}int buy\-Apps (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a94b9006ef6c437e3ee9687ac2eeb2f0a}
+shows and controls the menu of the clients purchase
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 
+\end{DoxyReturn}
+
+
+Definition at line 451 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a17c7e9490a26e40c5d3c6382728b3e36}{\index{menus.\-h@{menus.\-h}!check\-User@{check\-User}}
+\index{check\-User@{check\-User}!menus.h@{menus.\-h}}
+\subsubsection[{check\-User}]{\setlength{\rightskip}{0pt plus 5cm}int check\-User (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a17c7e9490a26e40c5d3c6382728b3e36}
+
+
+Checks user for the right password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & name of the user \\
+\hline
+{\em password} & password of theuser \\
+\hline
+{\em apps} & Apps\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 0-\/2 
+\end{DoxyReturn}
+
+
+Definition at line 292 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a44b193a809749f66e7928ef86f50f7d9}{\index{menus.\-h@{menus.\-h}!checkusername@{checkusername}}
+\index{checkusername@{checkusername}!menus.h@{menus.\-h}}
+\subsubsection[{checkusername}]{\setlength{\rightskip}{0pt plus 5cm}bool checkusername (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a44b193a809749f66e7928ef86f50f7d9}
+
+
+Checks the username. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & the username to check \\
+\hline
+{\em apps} & with the info\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true/false depending on que check of the username 
+\end{DoxyReturn}
+
+
+Definition at line 244 of file menus.\-cpp.
+
+\hypertarget{menus_8h_aa585ae7d8f5362da92ce8e632e96c1ac}{\index{menus.\-h@{menus.\-h}!cs@{cs}}
+\index{cs@{cs}!menus.h@{menus.\-h}}
+\subsubsection[{cs}]{\setlength{\rightskip}{0pt plus 5cm}void cs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_aa585ae7d8f5362da92ce8e632e96c1ac}
+
+
+clears screen 
+
+
+
+Definition at line 62 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a1a6a7739e9cc01ba888b57d1f9457f4c}{\index{menus.\-h@{menus.\-h}!Exit@{Exit}}
+\index{Exit@{Exit}!menus.h@{menus.\-h}}
+\subsubsection[{Exit}]{\setlength{\rightskip}{0pt plus 5cm}void Exit (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a1a6a7739e9cc01ba888b57d1f9457f4c}
+
+
+Exit function. 
+
+defgroup Menus Menus
+
+Controls the menus and the interface 
+
+Definition at line 11 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a00835efb53f4d81f809220267fe4991c}{\index{menus.\-h@{menus.\-h}!first\-Screen@{first\-Screen}}
+\index{first\-Screen@{first\-Screen}!menus.h@{menus.\-h}}
+\subsubsection[{first\-Screen}]{\setlength{\rightskip}{0pt plus 5cm}int first\-Screen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a00835efb53f4d81f809220267fe4991c}
+
+
+Shows the first screen. 
+
+
+
+Definition at line 75 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a23a082437ea9566917fc09f1d2ccc7b0}{\index{menus.\-h@{menus.\-h}!login\-Menu@{login\-Menu}}
+\index{login\-Menu@{login\-Menu}!menus.h@{menus.\-h}}
+\subsubsection[{login\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int login\-Menu (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a23a082437ea9566917fc09f1d2ccc7b0}
+
+
+Controls the login menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 0 
+\end{DoxyReturn}
+
+
+Definition at line 209 of file menus.\-cpp.
+
+\hypertarget{menus_8h_acc8e8a27a849a306e1dbfa836c5a07b4}{\index{menus.\-h@{menus.\-h}!Menu@{Menu}}
+\index{Menu@{Menu}!menus.h@{menus.\-h}}
+\subsubsection[{Menu}]{\setlength{\rightskip}{0pt plus 5cm}int Menu (
+\begin{DoxyParamCaption}
+\item[{int}]{a, }
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_acc8e8a27a849a306e1dbfa836c5a07b4}
+
+
+function to redirect to menu type 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+{\em a} & type of menun (from 1 to 3) \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1543 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a7167f5c196fc5e167bfabde1a730e81d}{\index{menus.\-h@{menus.\-h}!pause@{pause}}
+\index{pause@{pause}!menus.h@{menus.\-h}}
+\subsubsection[{pause}]{\setlength{\rightskip}{0pt plus 5cm}void pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a7167f5c196fc5e167bfabde1a730e81d}
+
+
+pauses the program 
+
+
+
+Definition at line 67 of file menus.\-cpp.
+
+\hypertarget{menus_8h_ab397273ffad40b9e8c08bd27138390e8}{\index{menus.\-h@{menus.\-h}!read\-Apps@{read\-Apps}}
+\index{read\-Apps@{read\-Apps}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Apps}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf App}$>$ read\-Apps (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_ab397273ffad40b9e8c08bd27138390e8}
+
+
+Function to read Apps info from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of apps 
+\end{DoxyReturn}
+
+
+Definition at line 1685 of file menus.\-cpp.
+
+\hypertarget{menus_8h_afcd035b559f35fd9ea1e862a3fd109ea}{\index{menus.\-h@{menus.\-h}!read\-Appsto\-Bst@{read\-Appsto\-Bst}}
+\index{read\-Appsto\-Bst@{read\-Appsto\-Bst}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Appsto\-Bst}]{\setlength{\rightskip}{0pt plus 5cm}void read\-Appsto\-Bst (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_afcd035b559f35fd9ea1e862a3fd109ea}
+
+
+Definition at line 1720 of file menus.\-cpp.
+
+\hypertarget{menus_8h_abb046e57ad494277538d50511a16553f}{\index{menus.\-h@{menus.\-h}!read\-Clients@{read\-Clients}}
+\index{read\-Clients@{read\-Clients}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Clients}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Client}$>$ read\-Clients (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_abb046e57ad494277538d50511a16553f}
+
+
+Function to read clients info from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1590 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a1843c99b6b486725f2f24de1ace88ca0}{\index{menus.\-h@{menus.\-h}!read\-Codes@{read\-Codes}}
+\index{read\-Codes@{read\-Codes}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Codes}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$string$>$ read\-Codes (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a1843c99b6b486725f2f24de1ace88ca0}
+
+
+Function to read Codes from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of strings with codes 
+\end{DoxyReturn}
+
+
+Definition at line 1984 of file menus.\-cpp.
+
+\hypertarget{menus_8h_affb2cadd67c8096436d9a8f06279afe3}{\index{menus.\-h@{menus.\-h}!read\-Comp@{read\-Comp}}
+\index{read\-Comp@{read\-Comp}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Comp}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Company}$>$ read\-Comp (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_affb2cadd67c8096436d9a8f06279afe3}
+
+
+Function to read Companies info from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of companies 
+\end{DoxyReturn}
+
+
+Definition at line 1896 of file menus.\-cpp.
+
+\hypertarget{menus_8h_af9a05ef922cdb113a8fe7898cf62b8b9}{\index{menus.\-h@{menus.\-h}!read\-Devs@{read\-Devs}}
+\index{read\-Devs@{read\-Devs}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Devs}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Developer}$>$ read\-Devs (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_af9a05ef922cdb113a8fe7898cf62b8b9}
+
+
+Function to read Devs info from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of Devs 
+\end{DoxyReturn}
+
+
+Definition at line 1802 of file menus.\-cpp.
+
+\hypertarget{menus_8h_ae6ced19845f6d11c2269530c97134e6d}{\index{menus.\-h@{menus.\-h}!read\-Sales@{read\-Sales}}
+\index{read\-Sales@{read\-Sales}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Sales}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Sale}$>$ read\-Sales (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_ae6ced19845f6d11c2269530c97134e6d}
+
+
+Function to read Codes from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector of strings with codes 
+\end{DoxyReturn}
+
+
+Definition at line 2009 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a0dfea7d90f0a83afe03b09acb925ff22}{\index{menus.\-h@{menus.\-h}!read\-Vals@{read\-Vals}}
+\index{read\-Vals@{read\-Vals}!menus.h@{menus.\-h}}
+\subsubsection[{read\-Vals}]{\setlength{\rightskip}{0pt plus 5cm}void read\-Vals (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a0dfea7d90f0a83afe03b09acb925ff22}
+
+
+Function read validations from text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} Data Structure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 2157 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a4f88eaae08853208b5bb525d3e03da9d}{\index{menus.\-h@{menus.\-h}!sign\-Up\-Menu@{sign\-Up\-Menu}}
+\index{sign\-Up\-Menu@{sign\-Up\-Menu}!menus.h@{menus.\-h}}
+\subsubsection[{sign\-Up\-Menu}]{\setlength{\rightskip}{0pt plus 5cm}int sign\-Up\-Menu (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a4f88eaae08853208b5bb525d3e03da9d}
+
+
+Controls the sign up menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 
+\end{DoxyReturn}
+
+
+Definition at line 125 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a550ef521ba111e4b2bcd7b151b28d991}{\index{menus.\-h@{menus.\-h}!top10menu@{top10menu}}
+\index{top10menu@{top10menu}!menus.h@{menus.\-h}}
+\subsubsection[{top10menu}]{\setlength{\rightskip}{0pt plus 5cm}void top10menu (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store}}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a550ef521ba111e4b2bcd7b151b28d991}
+
+
+Function to show apps from \hyperlink{class_b_s_t}{B\-S\-T}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 2085 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a3b6ebfa15859dd53d6926f1886ad5789}{\index{menus.\-h@{menus.\-h}!write\-Apps@{write\-Apps}}
+\index{write\-Apps@{write\-Apps}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Apps}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Apps (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf App} $>$ \&}]{v}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a3b6ebfa15859dd53d6926f1886ad5789}
+
+
+Definition at line 1770 of file menus.\-cpp.
+
+\hypertarget{menus_8h_ad0841b67a9be8040effd43726dd92267}{\index{menus.\-h@{menus.\-h}!write\-Apps\-To\-Bst@{write\-Apps\-To\-Bst}}
+\index{write\-Apps\-To\-Bst@{write\-Apps\-To\-Bst}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Apps\-To\-Bst}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Apps\-To\-Bst (
+\begin{DoxyParamCaption}
+\item[{{\bf B\-S\-T}$<$ {\bf App\-To\-Bst} $>$}]{app}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_ad0841b67a9be8040effd43726dd92267}
+
+
+Function to write Apps info to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1749 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a9a14a4f6d31bbdb53e01979851e5c2ba}{\index{menus.\-h@{menus.\-h}!write\-Clients@{write\-Clients}}
+\index{write\-Clients@{write\-Clients}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Clients}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Clients (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Client} $>$}]{vc}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a9a14a4f6d31bbdb53e01979851e5c2ba}
+
+
+Function to write clients info to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1648 of file menus.\-cpp.
+
+\hypertarget{menus_8h_ac3a783d5fc67b458f098d4866be3160d}{\index{menus.\-h@{menus.\-h}!write\-Comp@{write\-Comp}}
+\index{write\-Comp@{write\-Comp}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Comp}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Comp (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Company} $>$}]{vd}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_ac3a783d5fc67b458f098d4866be3160d}
+
+
+Function to write Companies info to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1948 of file menus.\-cpp.
+
+\hypertarget{menus_8h_aa23062ec4ea8aab93c945f37580c2cbb}{\index{menus.\-h@{menus.\-h}!write\-Devs@{write\-Devs}}
+\index{write\-Devs@{write\-Devs}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Devs}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Devs (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_aa23062ec4ea8aab93c945f37580c2cbb}
+
+
+Function to write Devs info to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 1861 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a9d0b2bd4c24cec3b5f6c45068afe44b8}{\index{menus.\-h@{menus.\-h}!write\-Sales@{write\-Sales}}
+\index{write\-Sales@{write\-Sales}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Sales}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Sales (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Sale} $>$}]{vd}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a9d0b2bd4c24cec3b5f6c45068afe44b8}
+
+
+Function to write sales to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vd} & Vector of sales \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 2056 of file menus.\-cpp.
+
+\hypertarget{menus_8h_a00da6ecf054736e0e2000d32ae1d1d2a}{\index{menus.\-h@{menus.\-h}!write\-Vals@{write\-Vals}}
+\index{write\-Vals@{write\-Vals}!menus.h@{menus.\-h}}
+\subsubsection[{write\-Vals}]{\setlength{\rightskip}{0pt plus 5cm}void write\-Vals (
+\begin{DoxyParamCaption}
+\item[{{\bf App\-Store} \&}]{apps}
+\end{DoxyParamCaption}
+)}}\label{menus_8h_a00da6ecf054736e0e2000d32ae1d1d2a}
+
+
+Write Apps waiting for validation info to text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apps} & \hyperlink{class_app_store}{App\-Store} Data structure \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 2207 of file menus.\-cpp.
+

@@ -1,0 +1,7 @@
+<map id="User" name="User">
+<area shape="rect" id="node4" href="$class_app_store.html" title="AppStore" alt="" coords="97,96,172,123"/>
+<area shape="rect" id="node2" href="$class_company.html" title="Company" alt="" coords="263,264,341,291"/>
+<area shape="rect" id="node3" href="$class_developer.html" title="Developer" alt="" coords="211,187,292,213"/>
+<area shape="rect" id="node6" href="$class_client.html" title="Client" alt="" coords="121,187,176,213"/>
+<area shape="rect" id="node5" href="$class_b_s_t.html" title="BST\&lt; AppToBst \&gt;" alt="" coords="4,5,133,32"/>
+</map>

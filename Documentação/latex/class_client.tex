@@ -1,0 +1,559 @@
+\hypertarget{class_client}{\section{Client Class Reference}
+\label{class_client}\index{Client@{Client}}
+}
+
+
+{\ttfamily \#include $<$app\-Store.\-h$>$}
+
+
+
+Inheritance diagram for Client\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{class_client__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Client\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{class_client__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}{Client} ()
+\begin{DoxyCompactList}\small\item\em Creates an object of \hyperlink{class_client}{Client} class. \end{DoxyCompactList}\item 
+\hyperlink{class_client_aeb5b0cad9e1c7fa265fa2fc5c8811bb5}{Client} (string n)
+\begin{DoxyCompactList}\small\item\em Creates an object of \hyperlink{class_client}{Client} class. \end{DoxyCompactList}\item 
+\hyperlink{class_client_a937ad40db78ba6c93e742c593cf63132}{Client} (string u, string p, string n)
+\begin{DoxyCompactList}\small\item\em Creates an object of \hyperlink{class_client}{Client} class. \end{DoxyCompactList}\item 
+\hyperlink{class_client_a39726efcaba3fa92c1f05aa4b07b6694}{Client} (string user, string pw, string n, float money, vector$<$ \hyperlink{class_app}{App} $\ast$ $>$ v, vector$<$ \hyperlink{structclassification}{classification} $>$ vc)
+\begin{DoxyCompactList}\small\item\em Creates an object of \hyperlink{class_client}{Client} class. \end{DoxyCompactList}\item 
+string \hyperlink{class_client_a28a677584ad4793b50b31c2e75039e2c}{get\-Name} () const 
+\begin{DoxyCompactList}\small\item\em Gets clients name. \end{DoxyCompactList}\item 
+string \hyperlink{class_client_a0e00ab51be9a72d8ed059c864fbcc095}{get\-User} () const 
+\begin{DoxyCompactList}\small\item\em Gets clients username. \end{DoxyCompactList}\item 
+string \hyperlink{class_client_a2a53bedac801f76b39eb2ed3683517a1}{get\-Pw} () const 
+\begin{DoxyCompactList}\small\item\em Gets clients password. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_ab6e49b98d68f7cf013aaa98076ac04d1}{set\-Username} (string n)
+\begin{DoxyCompactList}\small\item\em Sets clients username. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_a1feaa7011acc8cb176640e1af2934723}{set\-Name} (string n)
+\begin{DoxyCompactList}\small\item\em Sets clients name. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_app}{App} $\ast$ $>$ \hyperlink{class_client_a14e9a68136cae4312e98a8330c1d8b7d}{get\-Apps} () const 
+\begin{DoxyCompactList}\small\item\em Gets clients apps. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_ae23c1978c93d67cfd1b09c94157019eb}{set\-Apps} (vector$<$ \hyperlink{class_app}{App} $\ast$ $>$ v)
+\begin{DoxyCompactList}\small\item\em Sets clients apps. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{structclassification}{classification} $>$ \hyperlink{class_client_abd46879af1105932e6363941022f76ce}{get\-Class} () const 
+\begin{DoxyCompactList}\small\item\em Gets clients classifications. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_a84d1603a7a54058c8c360e2050fc8d10}{set\-Class} (vector$<$ \hyperlink{structclassification}{classification} $>$ c)
+\begin{DoxyCompactList}\small\item\em Sets clients classifications. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_ae9852558ee40920505015ccf50735e4f}{push\-Back\-App} (\hyperlink{class_app}{App} $\ast$a)
+\begin{DoxyCompactList}\small\item\em Puts an \hyperlink{class_app}{App} in the vector. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_ac3956ed4b2cc35e3be84ee2e89008108}{add\-To\-Cart} (\hyperlink{class_app}{App} $\ast$a)
+\begin{DoxyCompactList}\small\item\em Add to cart. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_app}{App} $\ast$ $>$ \hyperlink{class_client_a6f451827c4a1ad44bd80655456fc7b83}{get\-Cart} ()
+\begin{DoxyCompactList}\small\item\em Gets clients cart. \end{DoxyCompactList}\item 
+int \hyperlink{class_client_aeb4bceecc6d4be3fd53db4d490a0843e}{push\-Back\-Description} (int id, int s, string descripton)
+\begin{DoxyCompactList}\small\item\em Puts new description. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_ab772fe1ebe3f9782ea8cca34be0adc21}{set\-Pw} (string pw)
+\begin{DoxyCompactList}\small\item\em Sets the clients password. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_a2538e13b0ef01ecb00a362bb80fdeded}{plus\-Money} (float l)
+\begin{DoxyCompactList}\small\item\em Adds money. \end{DoxyCompactList}\item 
+float \hyperlink{class_client_ab7273217432f9906a7fd8c50637c6187}{get\-Money} () const 
+\begin{DoxyCompactList}\small\item\em Gets the clients money. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_a5849a7c952a95fa7d7c941efe4068ade}{set\-Money} (float l)
+\begin{DoxyCompactList}\small\item\em Sets clients money. \end{DoxyCompactList}\item 
+void \hyperlink{class_client_a9a90dc954556b3f1062900e5df03a201}{erase\-Cart\-App} (int a)
+\begin{DoxyCompactList}\small\item\em Erases carts \hyperlink{class_app}{App}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{class_app}{App} $\ast$ $>$ \hyperlink{class_client_aa3a20b0fa8ebba5e1e7f6826b9b6acff}{cart}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 698 of file app\-Store.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}{\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\subsubsection[{Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::\-Client (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_client_ae51af7aa6b8f591496a8f6a4a87a14bf}
+
+
+Creates an object of \hyperlink{class_client}{Client} class. 
+
+
+
+Definition at line 14 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_aeb5b0cad9e1c7fa265fa2fc5c8811bb5}{\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\subsubsection[{Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::\-Client (
+\begin{DoxyParamCaption}
+\item[{string}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_client_aeb5b0cad9e1c7fa265fa2fc5c8811bb5}
+
+
+Creates an object of \hyperlink{class_client}{Client} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & clients name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a937ad40db78ba6c93e742c593cf63132}{\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\subsubsection[{Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::\-Client (
+\begin{DoxyParamCaption}
+\item[{string}]{u, }
+\item[{string}]{p, }
+\item[{string}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_client_a937ad40db78ba6c93e742c593cf63132}
+
+
+Creates an object of \hyperlink{class_client}{Client} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em u} & username \\
+\hline
+{\em p} & password \\
+\hline
+{\em n} & name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 25 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a39726efcaba3fa92c1f05aa4b07b6694}{\index{Client@{Client}!Client@{Client}}
+\index{Client@{Client}!Client@{Client}}
+\subsubsection[{Client}]{\setlength{\rightskip}{0pt plus 5cm}Client\-::\-Client (
+\begin{DoxyParamCaption}
+\item[{string}]{user, }
+\item[{string}]{pw, }
+\item[{string}]{n, }
+\item[{float}]{money, }
+\item[{vector$<$ {\bf App} $\ast$ $>$}]{v, }
+\item[{vector$<$ {\bf classification} $>$}]{vc}
+\end{DoxyParamCaption}
+)}}\label{class_client_a39726efcaba3fa92c1f05aa4b07b6694}
+
+
+Creates an object of \hyperlink{class_client}{Client} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & username of the client \\
+\hline
+{\em pw} & clients password \\
+\hline
+{\em n} & clients name \\
+\hline
+{\em money} & clients actual money \\
+\hline
+{\em v} & clients apps \\
+\hline
+{\em vc} & clients classifications \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 47 of file app\-Store.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_client_ac3956ed4b2cc35e3be84ee2e89008108}{\index{Client@{Client}!add\-To\-Cart@{add\-To\-Cart}}
+\index{add\-To\-Cart@{add\-To\-Cart}!Client@{Client}}
+\subsubsection[{add\-To\-Cart}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::add\-To\-Cart (
+\begin{DoxyParamCaption}
+\item[{{\bf App} $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{class_client_ac3956ed4b2cc35e3be84ee2e89008108}
+
+
+Add to cart. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$a} & \hyperlink{class_app}{App} to add \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 128 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a9a90dc954556b3f1062900e5df03a201}{\index{Client@{Client}!erase\-Cart\-App@{erase\-Cart\-App}}
+\index{erase\-Cart\-App@{erase\-Cart\-App}!Client@{Client}}
+\subsubsection[{erase\-Cart\-App}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::erase\-Cart\-App (
+\begin{DoxyParamCaption}
+\item[{int}]{a}
+\end{DoxyParamCaption}
+)}}\label{class_client_a9a90dc954556b3f1062900e5df03a201}
+
+
+Erases carts \hyperlink{class_app}{App}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em app} & to delete \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 121 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a14e9a68136cae4312e98a8330c1d8b7d}{\index{Client@{Client}!get\-Apps@{get\-Apps}}
+\index{get\-Apps@{get\-Apps}!Client@{Client}}
+\subsubsection[{get\-Apps}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf App} $\ast$ $>$ Client\-::get\-Apps (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_a14e9a68136cae4312e98a8330c1d8b7d}
+
+
+Gets clients apps. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients apps 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a6f451827c4a1ad44bd80655456fc7b83}{\index{Client@{Client}!get\-Cart@{get\-Cart}}
+\index{get\-Cart@{get\-Cart}!Client@{Client}}
+\subsubsection[{get\-Cart}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf App} $\ast$ $>$ Client\-::get\-Cart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_client_a6f451827c4a1ad44bd80655456fc7b83}
+
+
+Gets clients cart. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients cart 
+\end{DoxyReturn}
+
+
+Definition at line 131 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_abd46879af1105932e6363941022f76ce}{\index{Client@{Client}!get\-Class@{get\-Class}}
+\index{get\-Class@{get\-Class}!Client@{Client}}
+\subsubsection[{get\-Class}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf classification} $>$ Client\-::get\-Class (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_abd46879af1105932e6363941022f76ce}
+
+
+Gets clients classifications. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients classifications 
+\end{DoxyReturn}
+
+
+Definition at line 90 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_ab7273217432f9906a7fd8c50637c6187}{\index{Client@{Client}!get\-Money@{get\-Money}}
+\index{get\-Money@{get\-Money}!Client@{Client}}
+\subsubsection[{get\-Money}]{\setlength{\rightskip}{0pt plus 5cm}float Client\-::get\-Money (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_ab7273217432f9906a7fd8c50637c6187}
+
+
+Gets the clients money. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients money 
+\end{DoxyReturn}
+
+
+Definition at line 74 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a28a677584ad4793b50b31c2e75039e2c}{\index{Client@{Client}!get\-Name@{get\-Name}}
+\index{get\-Name@{get\-Name}!Client@{Client}}
+\subsubsection[{get\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Client\-::get\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_a28a677584ad4793b50b31c2e75039e2c}
+
+
+Gets clients name. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients name 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a2a53bedac801f76b39eb2ed3683517a1}{\index{Client@{Client}!get\-Pw@{get\-Pw}}
+\index{get\-Pw@{get\-Pw}!Client@{Client}}
+\subsubsection[{get\-Pw}]{\setlength{\rightskip}{0pt plus 5cm}string Client\-::get\-Pw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_a2a53bedac801f76b39eb2ed3683517a1}
+
+
+Gets clients password. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients password 
+\end{DoxyReturn}
+
+
+Definition at line 102 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a0e00ab51be9a72d8ed059c864fbcc095}{\index{Client@{Client}!get\-User@{get\-User}}
+\index{get\-User@{get\-User}!Client@{Client}}
+\subsubsection[{get\-User}]{\setlength{\rightskip}{0pt plus 5cm}string Client\-::get\-User (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_client_a0e00ab51be9a72d8ed059c864fbcc095}
+
+
+Gets clients username. 
+
+\begin{DoxyReturn}{Returns}
+Returns clients username 
+\end{DoxyReturn}
+
+
+Definition at line 98 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a2538e13b0ef01ecb00a362bb80fdeded}{\index{Client@{Client}!plus\-Money@{plus\-Money}}
+\index{plus\-Money@{plus\-Money}!Client@{Client}}
+\subsubsection[{plus\-Money}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::plus\-Money (
+\begin{DoxyParamCaption}
+\item[{float}]{l}
+\end{DoxyParamCaption}
+)}}\label{class_client_a2538e13b0ef01ecb00a362bb80fdeded}
+
+
+Adds money. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & money to add \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_ae9852558ee40920505015ccf50735e4f}{\index{Client@{Client}!push\-Back\-App@{push\-Back\-App}}
+\index{push\-Back\-App@{push\-Back\-App}!Client@{Client}}
+\subsubsection[{push\-Back\-App}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::push\-Back\-App (
+\begin{DoxyParamCaption}
+\item[{{\bf App} $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{class_client_ae9852558ee40920505015ccf50735e4f}
+
+
+Puts an \hyperlink{class_app}{App} in the vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$a} & \hyperlink{class_app}{App} to insert \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 106 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_aeb4bceecc6d4be3fd53db4d490a0843e}{\index{Client@{Client}!push\-Back\-Description@{push\-Back\-Description}}
+\index{push\-Back\-Description@{push\-Back\-Description}!Client@{Client}}
+\subsubsection[{push\-Back\-Description}]{\setlength{\rightskip}{0pt plus 5cm}int Client\-::push\-Back\-Description (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{int}]{s, }
+\item[{string}]{descripton}
+\end{DoxyParamCaption}
+)}}\label{class_client_aeb4bceecc6d4be3fd53db4d490a0843e}
+
+
+Puts new description. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the app to describe \\
+\hline
+{\em s} & Stars given by the client \\
+\hline
+{\em description} & new description of the client\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 
+\end{DoxyReturn}
+
+
+Definition at line 110 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_ae23c1978c93d67cfd1b09c94157019eb}{\index{Client@{Client}!set\-Apps@{set\-Apps}}
+\index{set\-Apps@{set\-Apps}!Client@{Client}}
+\subsubsection[{set\-Apps}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Apps (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf App} $\ast$ $>$}]{v}
+\end{DoxyParamCaption}
+)}}\label{class_client_ae23c1978c93d67cfd1b09c94157019eb}
+
+
+Sets clients apps. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Apps} & to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 86 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a84d1603a7a54058c8c360e2050fc8d10}{\index{Client@{Client}!set\-Class@{set\-Class}}
+\index{set\-Class@{set\-Class}!Client@{Client}}
+\subsubsection[{set\-Class}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Class (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf classification} $>$}]{c}
+\end{DoxyParamCaption}
+)}}\label{class_client_a84d1603a7a54058c8c360e2050fc8d10}
+
+
+Sets clients classifications. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & clients classifications to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 94 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a5849a7c952a95fa7d7c941efe4068ade}{\index{Client@{Client}!set\-Money@{set\-Money}}
+\index{set\-Money@{set\-Money}!Client@{Client}}
+\subsubsection[{set\-Money}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Money (
+\begin{DoxyParamCaption}
+\item[{float}]{l}
+\end{DoxyParamCaption}
+)}}\label{class_client_a5849a7c952a95fa7d7c941efe4068ade}
+
+
+Sets clients money. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & money to be set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 78 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_a1feaa7011acc8cb176640e1af2934723}{\index{Client@{Client}!set\-Name@{set\-Name}}
+\index{set\-Name@{set\-Name}!Client@{Client}}
+\subsubsection[{set\-Name}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_client_a1feaa7011acc8cb176640e1af2934723}
+
+
+Sets clients name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & clients name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 62 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_ab772fe1ebe3f9782ea8cca34be0adc21}{\index{Client@{Client}!set\-Pw@{set\-Pw}}
+\index{set\-Pw@{set\-Pw}!Client@{Client}}
+\subsubsection[{set\-Pw}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Pw (
+\begin{DoxyParamCaption}
+\item[{string}]{pw}
+\end{DoxyParamCaption}
+)}}\label{class_client_ab772fe1ebe3f9782ea8cca34be0adc21}
+
+
+Sets the clients password. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Password} & to set \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file app\-Store.\-cpp.
+
+\hypertarget{class_client_ab6e49b98d68f7cf013aaa98076ac04d1}{\index{Client@{Client}!set\-Username@{set\-Username}}
+\index{set\-Username@{set\-Username}!Client@{Client}}
+\subsubsection[{set\-Username}]{\setlength{\rightskip}{0pt plus 5cm}void Client\-::set\-Username (
+\begin{DoxyParamCaption}
+\item[{string}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_client_ab6e49b98d68f7cf013aaa98076ac04d1}
+
+
+Sets clients username. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & clients username \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 66 of file app\-Store.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_client_aa3a20b0fa8ebba5e1e7f6826b9b6acff}{\index{Client@{Client}!cart@{cart}}
+\index{cart@{cart}!Client@{Client}}
+\subsubsection[{cart}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf App}$\ast$$>$ Client\-::cart}}\label{class_client_aa3a20b0fa8ebba5e1e7f6826b9b6acff}
+
+
+Definition at line 706 of file app\-Store.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{app_store_8h}{app\-Store.\-h}\item 
+src/\hyperlink{app_store_8cpp}{app\-Store.\-cpp}\end{DoxyCompactItemize}
